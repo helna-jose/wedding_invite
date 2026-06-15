@@ -34,7 +34,7 @@ export default function Home() {
           © 2026 Hency & Joyal. All Rights Reserved.
         </p>
         <p className="font-sans text-xs sm:text-sm text-sage-dark/70 mt-3 font-bold">
-          Designed & Developed by <a href="mailto:helnatheress@gmail.com" className="text-gold hover:text-espresso transition-colors">helnatheress@gmail.com</a>
+          Crafted with Love ❤️ | Designed & Developed by <a href="mailto:helnatheress@gmail.com" className="text-gold hover:text-espresso transition-colors">helnatheress@gmail.com</a>
         </p>
       </footer>
     </main>
