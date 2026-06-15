@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Calendar, Clock, MapPin, Compass } from "lucide-react";
 
 export default function Details() {
-  const mapUrl = "https://maps.google.com/maps?q=Nithya%20Sahaya%20Matha%20Church%20Adat%20Thrissur&t=&z=15&ie=UTF8&iwloc=&output=embed";
+  const mapUrl = "https://maps.google.com/maps?q=St.+Paul's+Church,+Thaikkattussery,+Thrissur,+Kerala+680306&t=&z=16&ie=UTF8&iwloc=&output=embed";
 
   return (
     <section 
@@ -51,7 +51,7 @@ export default function Details() {
                 </div>
                 <h3 className="font-serif text-lg font-medium text-espresso">The Date</h3>
                 <p className="font-sans text-sm text-sage-dark font-light leading-relaxed">
-                  Wednesday, July 08, 2026
+                  Saturday, July 11, 2026
                   <br />
                   
                 </p>
@@ -63,7 +63,7 @@ export default function Details() {
                 </div>
                 <h3 className="font-serif text-lg font-medium text-espresso">The Time</h3>
                 <p className="font-sans text-sm text-sage-dark font-light leading-relaxed">
-                  Betrothal Ceremony at 11:00 AM
+                  Marriage Ceremony at 10:30 AM
                   <br />
                  
                 </p>
@@ -75,12 +75,12 @@ export default function Details() {
                 </div>
                 <h3 className="font-serif text-lg font-medium text-espresso">The Venue</h3>
                 <p className="font-sans text-sm text-sage-dark font-light leading-relaxed">
-                  <strong>Nithya Sahaya Matha Church</strong>
+                  <strong>St. Paul's Church</strong>
                   <br />
-                  Adat, Thrissur, Kerala 680551, India
+                  Thaikkattussery, Thrissur, Kerala 680306, India
                 </p>
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=Nithya+Sahaya+Matha+Church+Adat+Thrissur" 
+                  href="https://maps.app.goo.gl/Z5PraoWJimfauxb77" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="mt-2 text-xs tracking-wider text-gold hover:text-espresso font-semibold uppercase transition-colors"

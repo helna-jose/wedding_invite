@@ -52,18 +52,18 @@ export default function Hero() {
         </span>
 
         <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl font-light text-espresso tracking-wide leading-tight mb-4 select-none">
-          Hency
-          <span className="block font-serif text-3xl sm:text-5xl my-2 text-gold italic font-extralight">&</span>
           Joyal
+          <span className="block font-serif text-3xl sm:text-5xl my-2 text-gold italic font-extralight">&</span>
+          Hency
         </h1>
 
         <div className="w-16 h-[1px] bg-gold/40 my-6 sm:my-8" />
 
         <p className="font-serif text-lg sm:text-2xl text-sage-dark italic tracking-wide mb-2">
-          July 08, 2026
+          July 11, 2026
         </p>
         <p className="font-sans text-xs sm:text-sm tracking-[0.2em] text-espresso uppercase mb-10 sm:mb-12">
-          Nithya Sahaya Matha Church · Adat, Thrissur
+          St. Paul's Church ·Thaikkattussery, Thrissur
         </p>
 
         <motion.button
