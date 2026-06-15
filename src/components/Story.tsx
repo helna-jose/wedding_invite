@@ -90,13 +90,7 @@ export default function Story() {
             </div>
           </div>
 
-          {/* Editorial Quote card */}
-          <div className="bg-transparent border border-gold/20 p-8 rounded-2xl text-center flex flex-col justify-center items-center min-h-[200px]">
-            <p className="font-serif text-espresso text-lg italic leading-relaxed">
-              "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."
-            </p>
-            <span className="text-[10px] tracking-[0.25em] uppercase text-gold mt-4 font-semibold">— Maya Angelou</span>
-          </div>
+
         </motion.div>
 
         {/* Column 2 - Shifted slightly down on desktop */}

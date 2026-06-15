@@ -113,33 +113,18 @@ export default function Details() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            {/* Venue Sketch Card */}
-            <div className="bg-paper border border-gold/15 p-6 rounded-2xl shadow-sm">
-              <div className="relative h-64 w-full rounded-xl overflow-hidden mb-6 bg-champagne/30">
-                <Image 
-                  src="/images/adat-palli.jpg" 
-                  alt="Nithya Sahaya Matha Church" 
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 30vw"
-                />
-              </div>
-              <h4 className="font-serif text-lg text-espresso mb-1">Nithya Sahaya Matha Church</h4>
-  
-            </div>
-
             {/* Elegant Map Embed */}
-            <div className="bg-paper border border-gold/15 p-2 rounded-2xl h-64 overflow-hidden relative shadow-sm group">
+            <div className="bg-paper border border-gold/15 p-2 rounded-2xl h-[480px] overflow-hidden relative shadow-sm group">
               <iframe
                 src={mapUrl}
                 width="100%"
                 height="100%"
-                style={{ border: 0, filter: "grayscale(100%) contrast(90%) opacity(85%)" }}
+                style={{ border: 0 }}
                 allowFullScreen={false}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Google Map location"
-                className="rounded-xl transition-all duration-700 group-hover:grayscale-[40%] group-hover:opacity-100"
+                className="rounded-xl"
               />
             </div>
           </motion.div>
