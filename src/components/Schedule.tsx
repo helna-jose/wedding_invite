@@ -15,13 +15,20 @@ interface EventItem {
 const events: EventItem[] = [
   {
     title: "Madhuramveppu Ceremony",
-    date: "Thursday, July 09, 2026",
+    date: "Tuesday, July 07, 2026",
     time: "7:00 PM",
-    venue: "St. Paul's Church Parish Hall,Thaikkattussery",
+    venue: "Nithya Sahayamatha Church Parish Hall, Adat",
     description: "A cherished tradition that symbolizes the sweet union of two families and the beginning of a sacred journey.",
     icon: <Sparkles className="w-5 h-5" />
   },
-  
+  {
+    title: "Betrothal Ceremony",
+    date: "Wednesday, July 08, 2026",
+    time: "11:00 AM",
+    venue: "Nithya Sahaya Matha Church, Adat",
+    description: "A sacred and joyful occasion in which two hearts, united in love and guided by God's grace, publicly affirm their commitment to one another.",
+    icon: <Sun className="w-5 h-5" />
+  },
   {
     title: "Marriage Ceremony",
     date: "Saturday, July 11, 2026",

@@ -16,7 +16,7 @@ export default function Countdown() {
 
   useEffect(() => {
     setMounted(true);
-    const targetDate = new Date("2026-07-11T10:30:00").getTime();
+    const targetDate = new Date("2026-07-08T10:30:00").getTime();
 
     const calculateTimeLeft = () => {
       const now = new Date().getTime();
@@ -61,7 +61,7 @@ export default function Countdown() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          Counting Down to July 11, 2026
+          Counting Down to July 08, 2026
         </motion.span>
 
         <motion.h2 

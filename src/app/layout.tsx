@@ -18,13 +18,13 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Joyal & Hency · The Wedding Invitation",
-  description: "Join us in celebrating the wedding of Hency and Joyal on July 11, 2026, at St. Paul's Church Adat, Thaikkattussery. Kindly RSVP before July 1, 2026.",
-  keywords: ["Joyal and Hency", "Wedding Invitation", "St. Paul's Church ", "Thaikkattussery Thrissur Wedding", "July 11 2026"],
-  authors: [{ name: "Joyal & Hency" }],
+  title: "Hency & Joyal · The Wedding Invitation",
+  description: "Join us in celebrating the wedding of Hency and Joyal on July 08, 2026, at Nithya Sahaya Matha Church Adat, Thrissur. Kindly RSVP before June 1, 2026.",
+  keywords: ["Hency and Joyal", "Wedding Invitation", "Nithya Sahaya Matha Church", "Adat Thrissur Wedding", "July 8 2026"],
+  authors: [{ name: "Hency & Joyal" }],
   openGraph: {
-    title: "Joyal & Hency · The Wedding Invitation",
-    description: "Join us in celebrating our wedding on July 11, 2026, at St. Paul's Church,Thaikkattussery, Thrissur.",
+    title: "Hency & Joyal · The Wedding Invitation",
+    description: "Join us in celebrating our wedding on July 08, 2026, at Nithya Sahaya Matha Church Adat, Thrissur.",
     type: "website",
     locale: "en_US",
   }
